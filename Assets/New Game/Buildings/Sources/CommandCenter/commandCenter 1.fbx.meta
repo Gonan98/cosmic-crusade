@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: c1981c3a0a61daa42928380ab47ac74a
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 2794640613604720327
+    second: Armature Object|Action
+  - first:
+      74: -6488883693466738337
+    second: Armature Object|Armature ObjectAttack
+  - first:
+      74: 5311909163731256354
+    second: Armature Object|Armature ObjectBuild A Stand
+  - first:
+      74: 6721369760449247625
+    second: Armature Object|Armature ObjectBuild A Start
+  - first:
+      74: -7181246341591402943
+    second: Armature Object|Armature ObjectBuild B Stand
+  - first:
+      74: -7465463917961864776
+    second: Armature Object|Armature ObjectBuild B Start
+  - first:
+      74: 4511219031981150336
+    second: Armature Object|Armature ObjectBuild C Stand
+  - first:
+      74: 7316949322130159956
+    second: Armature Object|Armature ObjectBuild C Start
+  - first:
+      74: 993603112977755783
+    second: Armature Object|Armature ObjectBuild C Start Jump
+  - first:
+      74: -5902956838682653138
+    second: Armature Object|Armature ObjectBuild D Stand Jump
+  - first:
+      74: -6110322433189320127
+    second: Armature Object|Armature ObjectBuild D Start
+  - first:
+      74: -6110167493467845408
+    second: Armature Object|Armature ObjectFly End
+  - first:
+      74: 6704287075890795787
+    second: Armature Object|Armature ObjectFly End A
+  - first:
+      74: 2522120637370244595
+    second: Armature Object|Armature ObjectFly End B
+  - first:
+      74: -3548745888856606600
+    second: Armature Object|Armature ObjectFly Stand
+  - first:
+      74: 8498461270886609690
+    second: Armature Object|Armature ObjectFly Stand A
+  - first:
+      74: -4929932540195312491
+    second: Armature Object|Armature ObjectFly Stand B
+  - first:
+      74: -6348452409652827770
+    second: Armature Object|Armature ObjectFly Start
+  - first:
+      74: -5883101117607344100
+    second: Armature Object|Armature ObjectFly Start A
+  - first:
+      74: 6282675900773663812
+    second: Armature Object|Armature ObjectFly Start B
+  - first:
+      74: -8434833840940453426
+    second: Armature Object|Armature ObjectFly Walk
+  - first:
+      74: 31853568958270968
+    second: Armature Object|Armature ObjectFly Walk A
+  - first:
+      74: 3374701272649660657
+    second: Armature Object|Armature ObjectFly Walk B
+  - first:
+      74: 8917577497687757714
+    second: Armature Object|Armature ObjectMorph A
+  - first:
+      74: 2922252330635192652
+    second: Armature Object|Armature ObjectMorph B
+  - first:
+      74: 8385926156961167726
+    second: Armature Object|Armature ObjectMorph C
+  - first:
+      74: -3471427448738982253
+    second: Armature Object|Armature ObjectStand
+  - first:
+      74: -6641219696746021444
+    second: Armature Object|Armature ObjectStand A
+  - first:
+      74: -692386099024480261
+    second: Armature Object|Armature ObjectStand B
+  - first:
+      74: -3913636355639455375
+    second: Armature Object|Armature ObjectStand Work
+  - first:
+      74: 2688189165607632055
+    second: Armature Object|Armature ObjectStand Work A
+  - first:
+      74: 2608328128804827283
+    second: Armature Object|Armature ObjectStand Work B
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

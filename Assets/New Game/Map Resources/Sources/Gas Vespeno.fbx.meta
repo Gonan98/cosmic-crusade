@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: 01a908826ae8d3c4f88787c6ea9bedf0
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -1157340940197569746
+    second: Armature Object.023|Armature Object.003Stand Work
+  - first:
+      74: 8520982954632680368
+    second: Armature Object.023|Armature Object.004Stand C
+  - first:
+      74: 108549073397685821
+    second: Armature Object.023|Armature Object.004Stand Work C
+  - first:
+      74: -3507667516752551581
+    second: Armature Object.023|Armature Object.009Fidget
+  - first:
+      74: 2836761875958739553
+    second: Armature Object.023|Armature Object.009Stand
+  - first:
+      74: -176633646381104195
+    second: Armature Object.023|Armature Object.023Stand B
+  - first:
+      74: 2433302168056034515
+    second: Armature Object.023|Armature Object.023Stand B.001
+  - first:
+      74: -741467946999974632
+    second: Armature Object.023|Armature Object.023Stand B.002
+  - first:
+      74: -8727240980123378311
+    second: Armature Object.023|Armature Object.023Stand B.005
+  - first:
+      74: 7268433150054955315
+    second: Armature Object.023|Armature Object.023Stand D
+  - first:
+      74: 536545025376564008
+    second: Armature Object.023|Armature Object.023Stand D.001
+  - first:
+      74: -5561717842458875555
+    second: Armature Object.023|Armature Object.023Stand D.002
+  - first:
+      74: -1036195286631115638
+    second: Armature Object.023|Armature Object.023Stand D.003
+  - first:
+      74: -4100372876320093935
+    second: Armature Object.023|Armature Object.023Stand D.004
+  - first:
+      74: 2906870416653812325
+    second: Armature Object.023|Armature Object.023Stand D.005
+  - first:
+      74: -1143030644971568733
+    second: Armature Object.023|Armature Object.024Cover End.002
+  - first:
+      74: -6320479070194254348
+    second: Armature Object.023|Armature Object.024Cover Start.002
+  - first:
+      74: -9155408271434630562
+    second: Armature Object.023|Armature Object.024Cover.002
+  - first:
+      74: 1397663048879534001
+    second: Armature Object.023|Armature Object.024Stand B
+  - first:
+      74: -2360736077997375460
+    second: Armature Object.023|Armature Object.024Stand B.001
+  - first:
+      74: 2897034693332567466
+    second: Armature Object.023|Armature Object.024Stand B.002
+  - first:
+      74: -4804636161977557959
+    second: Armature Object.023|Armature Object.024Stand D
+  - first:
+      74: -2226008501816818159
+    second: Armature Object.023|Armature Object.024Stand D.001
+  - first:
+      74: -5604129684417456295
+    second: Armature Object.023|Armature Object.024Stand D.002
+  - first:
+      74: 4760314000816699747
+    second: Armature Object.023|DEFAULTS_FOR_Armature Object.012
+  - first:
+      74: 5886690318755537630
+    second: Armature Object.023|DEFAULTS_FOR_Armature Object.013
+  - first:
+      74: -3425400758407257048
+    second: Armature Object.023|DEFAULTS_FOR_Armature Object.014
+  - first:
+      74: -5971228835809472344
+    second: Armature Object.023|DEFAULTS_FOR_Armature Object.015
+  - first:
+      74: -39536325370572454
+    second: Armature Object.023|DEFAULTS_FOR_Armature Object.016
+  - first:
+      74: -4208930144432209442
+    second: Armature Object.023|DEFAULTS_FOR_Armature Object.017
+  - first:
+      74: -5552788166441296437
+    second: Armature Object.023|DEFAULTS_FOR_Armature Object.018
+  - first:
+      74: -2956370042670567136
+    second: Armature Object.023|DEFAULTS_FOR_Armature Object.019
+  - first:
+      74: -8346222033997648669
+    second: Armature Object.023|DEFAULTS_FOR_Armature Object.023
+  - first:
+      74: -7354705031775727757
+    second: Armature Object.023|DEFAULTS_FOR_Armature Object.024
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

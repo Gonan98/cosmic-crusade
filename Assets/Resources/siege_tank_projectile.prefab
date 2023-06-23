@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5558852120730030475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1824488610274817305}
+  - component: {fileID: 2123836431835262422}
+  - component: {fileID: 7368044399337728379}
+  - component: {fileID: 2410614114049039718}
+  - component: {fileID: 2641249896508174359}
+  m_Layer: 0
+  m_Name: siege_tank_projectile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1824488610274817305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5558852120730030475}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7951519448812938248}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2123836431835262422
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5558852120730030475}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.25
+  m_Center: {x: 0, y: 0, z: 0.25}
+--- !u!54 &7368044399337728379
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5558852120730030475}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &2410614114049039718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5558852120730030475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03b0fa37ecbbf6540b73f4eadebf698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  code: siege_tank_projectile
+  enableLifeTime: 1
+  defaultLifeTime: 3
+  disableTime: 0
+  spawnPositionOffset: {x: 0, y: 0, z: 0}
+  onEnableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2641249896508174359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5558852120730030475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 903827dccafd4fd4898d5beb841b13be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mvtType: 0
+  maxHeight: 1
+  minDistance: 2
+  speed: 30
+  followTarget: 0
+  followTargetDistance: 10
+  damageOnce: 1
+  destroyOnDamage: 1
+  childOnDamage: 0
+  obstacleLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  triggerEffect: {fileID: -4585930730292202703, guid: 8d0875cc65f86f24d84ba82b4cf2d71b,
+    type: 3}
+  triggerEffectFaceTarget: 1
+  hitEffect: {fileID: 3013085832839553539, guid: fae58c22a300b47489403eb6af597bd8,
+    type: 3}
+  hitAudio: {fileID: 0}
+--- !u!1001 &7946696242746667866
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1824488610274817305}
+    m_Modifications:
+    - target: {fileID: 1238843893459588, guid: 92505d387f2abfd4d88d59618a85e2af, type: 3}
+      propertyPath: m_Name
+      value: Plasma_LightBlue_Medium_Projectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: 92505d387f2abfd4d88d59618a85e2af, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: 92505d387f2abfd4d88d59618a85e2af, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: 92505d387f2abfd4d88d59618a85e2af, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: 92505d387f2abfd4d88d59618a85e2af, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: 92505d387f2abfd4d88d59618a85e2af, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: 92505d387f2abfd4d88d59618a85e2af, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: 92505d387f2abfd4d88d59618a85e2af, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: 92505d387f2abfd4d88d59618a85e2af, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: 92505d387f2abfd4d88d59618a85e2af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: 92505d387f2abfd4d88d59618a85e2af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: 92505d387f2abfd4d88d59618a85e2af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114226090229346282, guid: 92505d387f2abfd4d88d59618a85e2af,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 199041641609785352, guid: 92505d387f2abfd4d88d59618a85e2af,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199073918619365828, guid: 92505d387f2abfd4d88d59618a85e2af,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199187720539646952, guid: 92505d387f2abfd4d88d59618a85e2af,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199910756691384154, guid: 92505d387f2abfd4d88d59618a85e2af,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199914749240810662, guid: 92505d387f2abfd4d88d59618a85e2af,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: 54453457801900860, guid: 92505d387f2abfd4d88d59618a85e2af, type: 3}
+    - {fileID: -733335618101322486, guid: 92505d387f2abfd4d88d59618a85e2af, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 92505d387f2abfd4d88d59618a85e2af, type: 3}
+--- !u!4 &7951519448812938248 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4836675779974994, guid: 92505d387f2abfd4d88d59618a85e2af,
+    type: 3}
+  m_PrefabInstance: {fileID: 7946696242746667866}
+  m_PrefabAsset: {fileID: 0}

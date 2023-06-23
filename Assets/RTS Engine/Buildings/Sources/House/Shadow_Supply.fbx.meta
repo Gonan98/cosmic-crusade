@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 0e12a9c1fed545443a6da11cbb0ca29f
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 5560549957806495169
+    second: Armature Object.012|Armature Object.003Stand Work
+  - first:
+      74: 329640960227392632
+    second: Armature Object.012|Armature Object.004Stand C
+  - first:
+      74: 3825424294861290058
+    second: Armature Object.012|Armature Object.004Stand Work C
+  - first:
+      74: -6000167499164945197
+    second: Armature Object.012|Armature Object.009Fidget
+  - first:
+      74: 8678361537636329893
+    second: Armature Object.012|Armature Object.009Stand
+  - first:
+      74: 1323507045523339253
+    second: Armature Object.012|Armature Object.012Birth
+  - first:
+      74: -3350916249287067060
+    second: Armature Object.012|Armature Object.012Build A Stand
+  - first:
+      74: -8595980509795331344
+    second: Armature Object.012|Armature Object.012Build A Start
+  - first:
+      74: -4139940235141071288
+    second: Armature Object.012|Armature Object.012Build B Stand
+  - first:
+      74: 3894006094022516113
+    second: Armature Object.012|Armature Object.012Build B Start
+  - first:
+      74: 4733257713496890344
+    second: Armature Object.012|Armature Object.012Build C Stand
+  - first:
+      74: 5211301241203368673
+    second: Armature Object.012|Armature Object.012Build C Start
+  - first:
+      74: 5926986750740127841
+    second: Armature Object.012|Armature Object.012Build D Start
+  - first:
+      74: -1649541921025429659
+    second: Armature Object.012|Armature Object.012Burrow
+  - first:
+      74: 7966496773292625214
+    second: Armature Object.012|Armature Object.012Spell
+  - first:
+      74: 2255598012471457966
+    second: Armature Object.012|Armature Object.012Stand
+  - first:
+      74: -1403558218683031431
+    second: Armature Object.012|Armature Object.012Stand 01
+  - first:
+      74: 8164756211837629161
+    second: Armature Object.012|Armature Object.012Stand Burrow
+  - first:
+      74: 310015400866233462
+    second: Armature Object.012|Armature Object.012Unburrow
+  - first:
+      74: -1217512795581945082
+    second: Armature Object.012|DEFAULTS_FOR_Armature Object.012
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

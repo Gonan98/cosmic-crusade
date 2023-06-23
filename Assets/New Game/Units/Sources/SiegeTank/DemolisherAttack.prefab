@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &320238736248464484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7696119026215200897}
+  - component: {fileID: -8942007552161275065}
+  - component: {fileID: 7620939029317497934}
+  - component: {fileID: -7295240708805724202}
+  - component: {fileID: -2056743975742526498}
+  m_Layer: 0
+  m_Name: DemolisherAttack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7696119026215200897
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320238736248464484}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8484715132388265961}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &-8942007552161275065
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320238736248464484}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!135 &7620939029317497934
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320238736248464484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-7295240708805724202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320238736248464484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03b0fa37ecbbf6540b73f4eadebf698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  code: siege_tank_attack_obj
+  enableLifeTime: 1
+  defaultLifeTime: 3
+  disableTime: 0
+  spawnPositionOffset: {x: 0, y: 0, z: 0}
+  onEnableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-2056743975742526498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320238736248464484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 903827dccafd4fd4898d5beb841b13be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mvtType: 0
+  maxHeight: 1
+  minDistance: 2
+  speed: 10
+  followTarget: 1
+  followTargetDistance: 10
+  damageOnce: 1
+  destroyOnDamage: 1
+  childOnDamage: 0
+  obstacleLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  triggerEffect: {fileID: 0}
+  triggerEffectFaceTarget: 1
+  hitEffect: {fileID: 0}
+  hitAudio: {fileID: 0}
+--- !u!1001 &8484715132388382383
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7696119026215200897}
+    m_Modifications:
+    - target: {fileID: 188714, guid: 6f89af6587c33854ea9751954bd78a7c, type: 3}
+      propertyPath: m_Name
+      value: BlueShockwaveMissilev2
+      objectReference: {fileID: 0}
+    - target: {fileID: 416070, guid: 6f89af6587c33854ea9751954bd78a7c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416070, guid: 6f89af6587c33854ea9751954bd78a7c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 416070, guid: 6f89af6587c33854ea9751954bd78a7c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 416070, guid: 6f89af6587c33854ea9751954bd78a7c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 416070, guid: 6f89af6587c33854ea9751954bd78a7c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416070, guid: 6f89af6587c33854ea9751954bd78a7c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416070, guid: 6f89af6587c33854ea9751954bd78a7c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416070, guid: 6f89af6587c33854ea9751954bd78a7c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 416070, guid: 6f89af6587c33854ea9751954bd78a7c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416070, guid: 6f89af6587c33854ea9751954bd78a7c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416070, guid: 6f89af6587c33854ea9751954bd78a7c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416070, guid: 6f89af6587c33854ea9751954bd78a7c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416070, guid: 6f89af6587c33854ea9751954bd78a7c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 416070, guid: 6f89af6587c33854ea9751954bd78a7c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6f89af6587c33854ea9751954bd78a7c, type: 3}
+--- !u!4 &8484715132388265961 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 416070, guid: 6f89af6587c33854ea9751954bd78a7c,
+    type: 3}
+  m_PrefabInstance: {fileID: 8484715132388382383}
+  m_PrefabAsset: {fileID: 0}

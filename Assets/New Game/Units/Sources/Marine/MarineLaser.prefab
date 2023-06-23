@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5867681218368916890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2259052633957374482}
+  - component: {fileID: 5951174201461616294}
+  - component: {fileID: 940410461816372962}
+  - component: {fileID: 1079658735074312707}
+  - component: {fileID: 4753546744706432224}
+  m_Layer: 0
+  m_Name: MarineLaser
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2259052633957374482
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5867681218368916890}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1931294079109811853}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5951174201461616294
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5867681218368916890}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &940410461816372962
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5867681218368916890}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1079658735074312707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5867681218368916890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03b0fa37ecbbf6540b73f4eadebf698d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  code: marine_laser_effect_obj
+  enableLifeTime: 1
+  defaultLifeTime: 3
+  disableTime: 0
+  spawnPositionOffset: {x: 0, y: 0, z: 0}
+  onEnableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onDisableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &4753546744706432224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5867681218368916890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 903827dccafd4fd4898d5beb841b13be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mvtType: 0
+  maxHeight: 1
+  minDistance: 2
+  speed: 30
+  followTarget: 0
+  followTargetDistance: 10
+  damageOnce: 1
+  destroyOnDamage: 1
+  childOnDamage: 0
+  obstacleLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  triggerEffect: {fileID: 8415653872084550672, guid: e165b34d6402b6449bce6c32e18c8419,
+    type: 3}
+  triggerEffectFaceTarget: 1
+  hitEffect: {fileID: 1565895768292611172, guid: 9aef5c2b44fcd9a45b7789e47f954670,
+    type: 3}
+  hitAudio: {fileID: 0}
+--- !u!1001 &1935557548419946975
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2259052633957374482}
+    m_Modifications:
+    - target: {fileID: 1238843893459588, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+      propertyPath: m_Name
+      value: Bullet_SilverFlare_Small_Projectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836675779974994, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 199041641609785352, guid: df1a1922af2b37e4f9ade4203d8566bd,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199044534075849594, guid: df1a1922af2b37e4f9ade4203d8566bd,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199353229655422934, guid: df1a1922af2b37e4f9ade4203d8566bd,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199567567772610642, guid: df1a1922af2b37e4f9ade4203d8566bd,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114591203083495332, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+    - {fileID: 54453457801900860, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+    - {fileID: 114950535843143764, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+--- !u!4 &1931294079109811853 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4836675779974994, guid: df1a1922af2b37e4f9ade4203d8566bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1935557548419946975}
+  m_PrefabAsset: {fileID: 0}
